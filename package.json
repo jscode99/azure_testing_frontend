@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "npm run build && next export -o _static",
+    "start": "next start",
+    "export":"npm run build && next export -o _static"
   },
   "dependencies": {
     "https": "^1.0.0",
