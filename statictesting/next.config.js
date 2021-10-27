@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
      env: {
-    BASE_URL: "https://9adf-20-74-161-164.ngrok.io",
+    BASE_URL: "http://20.74.161.164:1337",
     PATH: {
       test: "/tests",
     },
@@ -10,7 +10,7 @@ module.exports = {
     images: {
         loader: "imgix",
         path: "",
-        domains: ["9adf-20-74-161-164"],
+        domains: ["20.74.161.164"],
 
     },
 };
