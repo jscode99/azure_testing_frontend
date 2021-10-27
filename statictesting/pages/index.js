@@ -16,7 +16,7 @@ export default function Home({ test }) {
         </Head>
 
         <main className={styles.main}>
-          <h1 className={styles.title}>Testing</h1>
+          <h1 className={styles.title}>Testing Application</h1>
 
           <div className={styles.grid}>
             {test.map(data => (
