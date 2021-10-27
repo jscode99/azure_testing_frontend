@@ -8,7 +8,8 @@ module.exports = {
   },
     reactStrictMode: true,
     images: {
-        loader: 'cloudinary',
+        loader: "imgix",
+        path: "",
         domains: ["20.74.161.164"],
     },
 };
